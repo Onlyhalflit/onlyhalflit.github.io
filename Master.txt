@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-size: 16px;
+			color: white;
+			background-image: url('https://static.wixstatic.com/media/7b5613_51baa742a2ac45ac962b18e576802527~mv2.jpg');
+			background-size: cover;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+
+		@media screen and (max-width: 768px) {
+			body {
+				font-size: 14px;
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+			body {
+				font-size: 12px;
+			}
+			
+		}.logo {
+		    filter: invert(100%);
+			width: 100%;
+			max-width: 500px;
+			height: auto;
+		}
+
+		header nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+			display: flex;
+		}
+
+		header nav li {
+			float: left;
+			display: inline-block;
+			border-right: 1px solid #bbb;
+			margin-right: 10px;
+			padding-right: 10px;
+		}
+
+		header nav li:last-child {
+			border-right: none;
+			margin-right: 0;
+			padding-right: 0;
+		}
+
+		header nav li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		header nav li a:hover {
+			background-color: #111;
+		}
+	</style>
+</head>
+<body>
+    
+    
+	<header>
+		<nav>
+		    
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+		    
+			<h1><p style="color: white; font-size: 125px; font-family: Arial, sans-serif;"><img src="https://static.wixstatic.com/media/7b5613_28e541ee0cc7483ebdb449bbd328b25c~mv2.png" alt="Your logo" class="logo"></p></h1>
+			<p style="color:white; font-family: Arial, sans-serif;">We are a team of passionate writers. <br>
+			We believe in the power of words to inspire and transform lives. <br>
+			Our mission is to create content that is authentic, and impactful.</p>
+			<br>
+			<br>
+			<audio controls>
+				<source src="https://static.wixstatic.com/mp3/7b5613_3aa3611784d942ca94327bba17c3ec7d.mp3" type="audio/mp3">
+ 				Your browser does not support the audio element.
+			</audio>
+			<br>
+			<br>
+			<br>
+			<a href="#" class="btn">Learn More</a>
+		</section>
+		<h2> <p style="color:white;" >Our Services</p></h2>
+			<ul>
+  <li><span style="color: white; font-family: Arial, sans-serif;">Music content</span></li>
+  <li><span style="color: white; font-family: Arial, sans-serif;">Content Strategy</span></li>
+  <li><span style="color: white; font-family: Arial, sans-serif;">Editing</span></li>
+  <li><span style="color: white; font-family: Arial, sans-serif;">Ghostwriting</span></li>
+</ul>
+
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 onlyhalflit</p>
+	</footer>
+</body>
+</html>
